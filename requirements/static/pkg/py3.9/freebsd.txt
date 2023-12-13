@@ -5,7 +5,7 @@
 #    pip-compile -o requirements/static/pkg/py3.9/freebsd.txt -v requirements/base.txt requirements/zeromq.txt requirements/static/pkg/freebsd.in
 #
 backports.functools-lru-cache==1.5  # via cheroot
-certifi==2020.6.20        # via requests
+certifi==2023.7.22        # via requests
 cffi==1.14.4              # via cryptography
 chardet==3.0.4            # via requests
 cheroot==6.5.4            # via cherrypy
